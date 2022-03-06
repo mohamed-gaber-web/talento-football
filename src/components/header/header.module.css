@@ -1,0 +1,19 @@
+.header{
+    display: block;
+    width:100%;
+    height:fit-content;
+    border-bottom: 2px #F0E68C	solid; 
+    padding-bottom: 1vh;
+}
+.header > div{
+    width: fit-content;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.header > div > p{
+    text-align: end;
+    font-size:1.2rem;
+}
+.header > div > img{
+    width: 130px;
+}

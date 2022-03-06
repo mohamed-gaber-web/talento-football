@@ -1,0 +1,165 @@
+.callender-schedule .display-Type{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vh;
+    text-align: center;
+}
+
+.callender-schedule .sports-Icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    text-align: center;
+}
+.callender-schedule .sports-Icons::before{
+    content: '';
+    width: 10%;
+    border-left: solid 1px grey ;
+    position: relative;
+    left: -0.5vw;
+    top: -2%;
+}
+.callender-schedule .sports-Icons::after{
+    content: '';
+    width: 10%;
+    border-left: solid 1px grey;
+    position: relative;
+    right: -0.5vw;
+    top: -2%;
+}
+.callender-schedule .Schedule-Button{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding-left: 0.4vw;
+}
+.callender-schedule .Schedule-Button:hover{
+    color: #F0E68C;
+}
+.callender-schedule .Coach-Actions{
+    display: flex;
+    justify-content:space-between;
+    gap: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+}
+    
+.callender-schedule {
+    padding-top: 0vh;
+    margin-left: 1.5%;
+    height: fit-content;
+    color: white;
+    width: 97%;
+    border-radius: 5px;
+    display:block;    
+}
+.callender-schedule .Schedule-head{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px grey solid;
+    position: relative;
+    border: 1px grey solid;
+    border-radius: 4px 4px 0px 0px;
+    height: 5vh;
+    }
+    .callender-schedule .Schedule-head-Start{
+        text-align: center;
+        justify-content: center;
+        padding-left: 1vw;
+    }
+   
+    .callender-schedule .Schedule-head::before{
+    content:"\A";
+    border-style: solid;
+    border-width: 0.8vh 0.8vh 0.8vh 0;
+    border-color: transparent #F0E68C transparent transparent;
+    position: absolute;
+    left: -15px;
+    transform: rotate(180deg);
+  }
+  .callender-schedule .Schedule-head .Schedule-head-End{
+    display: flex;
+    justify-content: end;
+    gap: 9%;
+    height: 3vh;
+}
+
+.Schedule-itself{
+    padding-top: 0vh;
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 2vh;  
+    /* justify-content:center; */
+}
+/* .callender-schedule .selected-Sport{
+    padding-left: 1vw;
+    width:99%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    position: relative;
+} */
+
+
+.callender-schedule .Schedule-Day{
+    border: 0.8px grey solid;
+    border-radius: 1px;
+    display:block;
+    padding: 1px;
+}
+.callender-schedule .Schedule-Day-Head{
+    display:flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.callender-schedule .Schedul-Day-Content{
+    padding: 2px;
+    max-height:fit-content ;
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    position: relative;
+    height: 15vh;
+    overflow: auto;
+}
+
+.Schedule-Button a{
+    text-decoration: none;
+}
+.callender-schedule .Schedul-Day-Content>div{
+    display: flex;
+    flex-direction: row;
+    margin-top:0.5vh;
+    font-size: 1.4vh;
+    max-height:fit-content;
+    
+    /* text-align: center; */
+}
+
+.callender-schedule .blue{
+    background-color: #4169E1;
+}
+.callender-schedule .red{
+    background-color: #EE4B2B;
+}
+.callender-schedule .green{
+    background-color: green;
+}
+.callender-schedule .burble{
+    background-color: blueviolet;
+}
+.callender-schedule .dark-blue{
+background-color: darkblue;
+}
+.callender-schedule .dark-red{
+background-color: darkred;
+}
+
+.callender-schedule .Current-Day{
+    border: 2px #F0E68C solid;
+}
+ 

@@ -1,0 +1,110 @@
+.modalBackGround2{
+    /* display: none; Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.modalContainer2{
+    background-color: rgb(37, 37, 37);
+    margin: auto;
+    border: 2px solid #888;
+    width: 70%;
+    height: 60%;
+    border-radius: 2%;
+    display: block;
+    align-items: center;
+   
+}
+.modalHead2{
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* padding: 0.1vw; */
+    padding-left: 2vw;
+}
+.modalHead2>div>button{
+    border: 2px #F0E68C solid;
+    border-radius: 50%;
+    width: 1.2vw;
+    color: #F0E68C;
+    cursor: pointer;
+    background-color: transparent;
+}
+.modalContentFirstRow{
+    display: flex;
+    gap: 4vw;
+}
+.choosingTeamCell{
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    font-size: 0.9rem;
+    color: #F0E68C;
+}
+.choosingTeamCell span:nth-child(2){
+    padding-left: 20%;
+    padding-top: 0.5vh;
+}
+.choosingTeamCell span:nth-child(2)>button{
+    background-color: rgb(37, 37, 37);
+    border: 1px grey solid;
+    color: white;
+    width: 6vw;
+    height: 3.8vh;
+    border-radius: 5px;
+}
+
+ /* input[type=checkbox] { 
+	-webkit-appearance: none;
+        width: 5px;
+        height: 10px;
+        content: 'f';
+        color: #888;
+        content: 'dssskldkld';
+        background-color: red;
+        font-family: FontAwesome;
+    } */
+
+ /* input[type="checkbox"]:checked ~ .checkbox {
+        display: inline-block;
+        color: red;
+      } */
+      
+.modalFooter2{
+    width: 93%;
+    padding-top: 1vh;
+display: flex;
+justify-content: end;
+}
+.modalFooter2 >button{
+    background-color: #e4d54e;
+    font-family:monospace;
+    text-align: center;
+    font-weight:800;
+    width: 4vw;
+    height: 3.5vh;
+    border:none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.modalContent2{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+}

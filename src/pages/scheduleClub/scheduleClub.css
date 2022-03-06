@@ -1,0 +1,208 @@
+.display-Type{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vh;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 0.5vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.sports-Icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    text-align: center;
+    font-size: 18px;
+}
+.sports-Icons::before{
+    content: '';
+    width: 10%;
+    border-left: solid 1px grey ;
+    position: relative;
+    left: -0.5vw;
+    top: -10%;
+}
+.sports-Icons::after{
+    content: '';
+    width: 10%;
+    border-left: solid 1px grey;
+    position: relative;
+    right: -0.5vw;
+    top: -10%;
+}
+.Schedule-Button{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding-left: 0.4vw;
+    background-color: transparent;
+    position: relative;
+}
+.Schedule-Button a{
+    text-decoration: none;
+}
+.Schedule-Button span {
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    right: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #F0E68C;
+    display: none;
+    padding: 5px 10px;
+    width: 70px;
+    z-index: 999999999;
+}
+
+
+.Schedule-Button:hover{
+    color: #F0E68C;
+}
+
+.Schedule-Button:hover span{
+    display: block;
+    color: #000!important;
+}
+
+.Coach-Actions{
+    display: flex;
+    justify-content:space-between;
+    gap: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+}
+    
+.Schedule{
+    padding-top: 1vh;
+    margin-left: 1.5%;
+    color: white;
+    width: 97%;
+    border: 1px grey solid;
+    border-radius: 5px;
+    display: block;    
+
+}
+.Schedule .Schedule-head{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px grey solid;
+    position: relative;
+}
+
+.Schedule-head-Start{
+    text-align: center;
+    justify-content: center;
+    padding-left: 1vw;
+}
+   
+.Schedule-head::before{
+    content:"\A";
+    border-style: solid;
+    border-width: 0.8vh 0.8vh 0.8vh 0;
+    border-color: transparent #F0E68C transparent transparent;
+    position: absolute;
+    left: -15px;
+    transform: rotate(180deg);
+  }
+
+.Schedule .Schedule-head .Schedule-head-End{
+    display: flex;
+    justify-content: end;
+    gap: 9%;
+    height: 3vh;
+    }
+
+.Schedule-itself{
+    display: grid;
+    grid-template-columns: repeat(7,calc(100%/7));
+    
+}
+ .Schedule-Day{
+    border: 0.5px grey solid;
+    border-left: none;
+    border-top: none;
+    border-radius: 1px;
+    display: block;
+    padding: 2px;
+}
+.Schedule-itself .Schedule-Day.Schedule-Day-Head{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.Schedul-Day-Content{
+    padding: 2px;
+    height: 15vh;
+    overflow: auto;
+}
+.Schedul-Day-Content>div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    font-size: 1.2vh;
+    font-weight: 600;
+    padding: 3px 0;
+}
+
+.blue{
+    background-color: #4169E1;
+    /* background-color: #F0E68C ; */
+    /* color: black; */
+    color: #fff;
+}
+.red{
+    background-color: #EE4B2B;
+    /* background-color: #F0E68C; */
+    color: #fff;
+}
+.green{
+    background-color: green;
+    /* background-color: #F0E68C; */
+    color: #fff;
+}
+.burble{
+    background-color: blueviolet;
+    /* background-color: #F0E68C; */
+    color: #fff;
+}
+.dark-blue{
+    background-color: darkblue;
+    /* background-color: #F0E68C; */
+    color: #fff;
+}
+.dark-red{
+    background-color: darkred;
+    /* background-color: #F0E68C; */
+    color: #fff;
+}
+.Golden-Frame{
+    background-color: #F0E68C;
+    color: #fff;
+}
+.Current-Day{
+    border: 2px #F0E68C solid;
+}

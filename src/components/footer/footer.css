@@ -1,0 +1,41 @@
+.Footer-Container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0vh;
+    padding-left: 3vw;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+}
+.right-Footer{
+    padding-right: 5vw;
+}
+
+.button{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0 20px;
+    background-color: transparent;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+.button:hover {
+    color:#F0E68C;
+}
+.rigth-Footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.golden-Font{
+    color:#F0E68C;
+}

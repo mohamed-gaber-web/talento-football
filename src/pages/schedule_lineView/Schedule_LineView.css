@@ -1,0 +1,212 @@
+.line-view .display-Type{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vh;
+    text-align: center;
+}
+
+.line-view .sports-Icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    text-align: center;
+    font-size: 18px;
+}
+.line-view .sports-Icons::before{
+    content: '';
+    width: 10%;
+    border-left: solid 1px grey ;
+    position: relative;
+    left: -0.5vw;
+    top: -10%;
+}
+.line-view .sports-Icons::after{
+    content: '';
+    width: 10%;
+    border-left: solid 1px grey;
+    position: relative;
+    right: -0.5vw;
+    top: -10%;
+}
+.line-view .Schedule-Button{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding-left: 0.4vw;
+    background-color: transparent;
+    position: relative;
+}
+
+.line-view .Schedule-Button span {
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    right: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #F0E68C;
+    display: none;
+    padding: 5px 10px;
+    width: 70px;
+    z-index: 999999999;
+}
+.line-view .Schedule-Button:hover{
+    color: #F0E68C;
+}
+
+.line-view .Schedule-Button:hover span{
+    display: block;
+    color: #000!important;
+}
+
+.line-view .Coach-Actions{
+    display: flex;
+    justify-content:space-between;
+    gap: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+}
+    
+.line-view .Schedule{
+    padding-top: 1vh;
+    margin-left: 1.5%;
+    color: white;
+    width: 97%;
+    border: 0px grey solid;
+    /* border-top: 1px solid grey; */
+    border-radius: 5px;
+    display: block;    
+
+
+}
+.line-view .Schedule .Schedule-head{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px grey solid;
+    height: 4vh;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+}
+
+.line-view .Schedule-head-Start{
+    text-align: center;
+    justify-content: center;
+    padding-left: 1vw;
+}
+   
+.line-view .Schedule-head::before{
+    content:"\A";
+    border-style: solid;
+    border-width: 0.8vh 0.8vh 0.8vh 0;
+    border-color: transparent #F0E68C transparent transparent;
+    position: absolute;
+    left: -15px;
+    transform: rotate(180deg);
+  }
+
+.line-view .Schedule .Schedule-head .Schedule-head-End{
+    display: flex;
+    justify-content: end;
+    gap: 9%;
+    height: 3vh;
+    }
+
+.line-view .Schedule-itself-line{
+    border-left: none ;
+    padding-top: 2vh;
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 2vh;  
+    
+} 
+.line-view .selected-Sport{
+    padding-left: 1vw;
+    width:99%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    position: relative;
+}
+
+.line-view .selected-Sport > span{
+    position: absolute;
+    left: -1.2vw;
+    top: 6vh;
+    color:#F0E68C;
+}
+
+.line-view .Gym-Row>span{
+   
+    transform: rotate(35deg);
+  
+}
+.line-view .Schedule-Day{
+    border: 0.8px grey solid;
+    border-radius: 1px;
+    display: block;
+    padding: 1px;
+}
+.line-view .Schedule-itself-line .Schedule-Day .Schedule-Day-Head{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.line-view .Schedul-Day-Content{
+    /* display:grid;
+    grid-template-rows: auto(5,1fr); */
+    overflow:auto;
+    padding: 2px;
+    height: 15vh;
+}
+.line-view .Schedul-Day-Content>div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    font-size: 1.2vh;
+    font-weight: 600;
+    padding: 3px 0;
+}
+
+.line-view .blue{
+    background-color: #4169E1;
+    /* background-color: #F0E68C; */
+    color: white;
+}
+.line-view .red{
+    background-color: #EE4B2B;
+    /* background-color: #F0E68C; */
+    color: white;
+}
+.line-view .green{
+    background-color: green;
+    /* background-color: #F0E68C; */
+    color: white;
+}
+.line-view .burble{
+    background-color: blueviolet;
+    /* background-color: #F0E68C; */
+    color: white;
+}
+.line-view .dark-blue{
+background-color: darkblue;
+/* background-color: #F0E68C; */
+color: white;
+}
+.line-view .dark-red{
+background-color: darkred;
+/* background-color: #F0E68C; */
+color: white;
+}
+.line-view .Golden-Frame{
+    background-color: #F0E68C;
+    color: #101010;
+}
+.line-view .Current-Day{
+    border: 2px #F0E68C solid;
+}

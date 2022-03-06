@@ -1,0 +1,19 @@
+.page {
+    display: grid;
+    grid-template-columns: 7% repeat(9, 1fr);
+    /* grid-template-rows: auto; */
+    height: 70vh;
+    grid-template-areas: "side cont cont cont cont cont cont cont cont cont";
+}
+
+aside {
+    grid-area: side;
+}
+
+.content {
+    grid-area: cont;
+    /* max-width: 98%;
+    max-height: 95%; */
+}
+
+
