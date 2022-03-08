@@ -21,7 +21,7 @@
     margin: auto;
     border: 2px solid #888;
     width: 70%;
-    height: 60%;
+    height: 65%;
     border-radius: 2%;
     display: block;
     align-items: center;
@@ -46,6 +46,11 @@
     cursor: pointer;
     background-color: transparent;
 }
+.modalContent2{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    gap: 2vh;
+}
 .modalContentFirstRow{
     display: flex;
     gap: 4vw;
@@ -54,42 +59,130 @@
     padding-left: 2vw;
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 16%;
     font-size: 0.9rem;
     color: #F0E68C;
+    position: relative;
 }
+.select{
+    width:6vw;
+    height: 4vh;
+    text-align: center;
+    appearance: none;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 5px;
+    position: relative;
+}
+.select:focus{
+    transform: scaleX(1.2);
+    border-radius: 1px 0px 0px 0px;
+    border: none !important;
+}
+.option{
+    /* width: 8vw;
+    height: 4vh; */
+    /* text-align: center; */
+    border: none;
+    padding: 5px;
+    background-color: rgb(37, 37, 37);;
+    color: white;
+    border: 1px solid white;
+   
+}
+/* .select:focus {
+width:50vw;
+z-index: 10000;
+position: relative;
+} */
+
+.choosingTeamCell:nth-child(1) button{
+    width:7vw;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    font-size: medium;
+    
+    
+}
+
+
 .choosingTeamCell span:nth-child(2){
+    display: flex;
     padding-left: 20%;
     padding-top: 0.5vh;
+    gap: 1.5vw;
 }
 .choosingTeamCell span:nth-child(2)>button{
     background-color: rgb(37, 37, 37);
-    border: 1px grey solid;
+    border:0;
     color: white;
     width: 6vw;
-    height: 3.8vh;
-    border-radius: 5px;
+    height: 4vh;
+    cursor: pointer;
+}
+.choosingTeamCell span:nth-child(2)>button>i{
+    font-size:1.1rem;
+    
+}
+.fa-dumbbell{
+    transform: rotate(30deg);
 }
 
- /* input[type=checkbox] { 
-	-webkit-appearance: none;
-        width: 5px;
-        height: 10px;
-        content: 'f';
-        color: #888;
-        content: 'dssskldkld';
-        background-color: red;
-        font-family: FontAwesome;
-    } */
+.btn:focus i{
+    color:#F0E68C;
+}
+ 
+.choosingTeamCell-Second{
+    padding-left: 2vw;
+    display:flex;
+    flex-direction: column;
+    gap: 0.8vh;
+}
+.choosingTeamCell-Second:first-child{
+    color: #F0E68C;
+}
+.choosingTeamCell-Second .hovedPrincip{
+    padding-left: 1vw;
 
- /* input[type="checkbox"]:checked ~ .checkbox {
-        display: inline-block;
-        color: red;
-      } */
-      
+}
+
+.choosingTeamCell-Second select{
+    width: 15vw;
+    text-align: center;
+    justify-content: center;
+    /* outline: none; */
+}
+input[type="date"],input[type="time"]{
+    background-color: transparent;
+    color: white;
+    width: 15vw;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    height: 4vh;
+    text-align: center;
+}
+.choosingTeamCell select:hover{
+    outline: grey solid 5px;
+}
+.choosingTeamCell-SecondContent{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.footerOfRow{
+    padding-left: 4vw;
+    padding-top: 0.5vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
 .modalFooter2{
     width: 93%;
-    padding-top: 1vh;
+    padding-top: 4vh;
 display: flex;
 justify-content: end;
 }
@@ -104,7 +197,11 @@ justify-content: end;
     border-radius: 10%;
     cursor: pointer;
 }
-.modalContent2{
-    display: grid;
-    grid-template-rows: repeat(4,auto);
-}
+
+
+
+  .modalContentSecondRow{
+      overflow:hidden;
+      display: flex;
+      gap: 4vw;
+  }
