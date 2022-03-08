@@ -3,7 +3,9 @@ import React, { useEffect,useState } from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './newActivityModal.css'
 function NewActivityModal({closeActivityModal}) {
-   
+   const [ActivityType,setActivityType]=useState('');
+   const [Opponent,setOpponent]=useState('');
+   console.log(ActivityType,Opponent);
   return (
 
     <div  className='modalBackGround'>
@@ -45,19 +47,19 @@ function NewActivityModal({closeActivityModal}) {
             </div>
             <div className='choosingTeamCell'>
               <span>Choose Activity Type</span>
-              <span><select name="actvities" className="select">
-                <option name="select" value="select">Type</option>
+              <span><select name="actvities" className="select" onChange={(e)=>setActivityType(e.target.value)} >
+                <option name="select" value="select" >Type</option>
                 <option name="select" value="Training">Training</option>
-                <option name="select" value="March">Match</option>
+                <option name="select" value="Match">Match</option>
                 <option name="select" value="Meeting">Meeting</option>
-                <option name="select" value="Social Activity"className='option'>Social Activity</option>
+                <option name="select" value="Social Activity">Social Activity</option>
 
               </select></span>
 
             </div>
             </div>
             
-            <div className='modalContentSecondRow'>
+            {(ActivityType==="select" || ActivityType==="Training"||ActivityType==='') && <div className='modalContentSecondRow'>
             
             <div className='choosingTeamCell-Second'>
               <div>Primary</div>
@@ -90,9 +92,79 @@ function NewActivityModal({closeActivityModal}) {
               </div>
               </div>
   
-            </div>
+            </div>}
 
-            <div className='modalContentSecondRow'>
+            {ActivityType==="Match" && <div className='modalContentSecondRow'>
+            
+            <div className='choosingTeamCell-Second'>
+              <div>Match:</div>
+              <div className='choosingTeamCell-SecondContent'>
+              <span className='hovedPrincip'>
+              <select name="Teams" className="select" onChange={(e)=>setOpponent("Kamp vs " + e.target.value)}>
+                <option name="FCK" value="FCK">FCK</option>
+                <option name="silkeborg" value="Silkeborg IF">Silkeborg IF</option>
+                <option name="seStenlect" value="Stenløse BK">Stenløse BK</option>
+                <option name="Stoholm" value="Stoholm IF">Stoholm IF</option>
+              </select>
+              </span>
+
+              </div>
+              </div>
+  
+            </div> }
+            
+            {ActivityType==="Match" && <div className='modalContentSecondRow'>
+            
+            <div className='choosingTeamCell-Second'>
+              <div>Activity Name:</div>
+              <div className='choosingTeamCell-SecondContent'>
+              <span className='hovedPrincip'>
+              <select name="actvities" className="select">
+                <option name="select" value="FCK">{Opponent}</option>
+               
+              </select>
+              </span>
+
+              </div>
+              </div>
+  
+            </div> }
+
+            {ActivityType==="Meeting" && <div className='modalContentSecondRow'>
+            
+            <div className='choosingTeamCell-Second'>
+              <div>Headline:</div>
+              <div className='choosingTeamCell-SecondContent'>
+              <span className='hovedPrincip'>
+              <select name="actvities" className="select">
+                <option name="select" value="FCK">U12 Team Meeting</option>
+               
+              </select>
+              </span>
+
+              </div>
+              </div>
+  
+            </div> }
+            {ActivityType==="Meeting" && <div className='modalContentSecondRow'>
+            
+            <div className='choosingTeamCell-Second'>
+              <div>Agenda:</div>
+              <div className='choosingTeamCell-SecondContent'>
+              <span className='hovedPrincip'>
+              <select name="actvities" className="select">
+                <option name="select" value="FCK">Description</option>
+               
+              </select>
+              </span>
+
+              </div>
+              </div>
+  
+            </div> }
+
+
+          {(ActivityType==="select" || ActivityType==="Training"||ActivityType==='') && <div className='modalContentSecondRow' >
             
             <div className='choosingTeamCell-Second'>
               <div>Secondary</div>
@@ -126,7 +198,7 @@ function NewActivityModal({closeActivityModal}) {
               </div>
               </div>
             
-            </div>
+            </div>}
             <div className='modalContentSecondRow'>
             
             <div className='choosingTeamCell-Second'>
@@ -161,7 +233,7 @@ function NewActivityModal({closeActivityModal}) {
             </div>
             </div>
         <div className='modalFooter2'>
-             <button onClick={()=>closeActivityModal(false)}> Save</button></div>
+             <button onClick={()=>closeActivityModal(false)}> Add</button></div>
 
     </div>
 </div>

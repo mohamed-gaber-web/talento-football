@@ -15,7 +15,7 @@ aside{
     
   }
   aside > ul >li{
-    padding-top: 20px;
+    padding-top: 0.5vh;
     
   }
   aside > ul > li >a{
@@ -32,10 +32,11 @@ aside{
     font-weight: 500;    
   }
   aside> ul > li > a> svg{
-    font-size: 3em;
+    font-size: 2.3em;
     color: #F0E68C !important;
   }
   aside>ul>li>a>.fa-rounded{
     border-radius: 50%;
     color: #F0E68C;
   }
+  

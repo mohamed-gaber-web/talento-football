@@ -110,12 +110,15 @@
     align-items: center;
     border-bottom: 1px grey solid;
     position: relative;
+
 }
 
-.Schedule-head-Start{
+.Schedule-head-Startt{
+    padding-bottom: 1vh;
     text-align: center;
     justify-content: center;
     padding-left: 1vw;
+    font-size: 2.3vh;
 }
    
 .Schedule-head::before{
@@ -135,9 +138,10 @@
     height: 3vh;
     }
 
-.Schedule-itself{
+.Schedule-itselff{
     display: grid;
     grid-template-columns: repeat(7,calc(100%/7));
+    gap:0px;
     
 }
  .Schedule-Day{
@@ -148,8 +152,9 @@
     display: block;
     padding: 2px;
 }
-.Schedule-itself .Schedule-Day.Schedule-Day-Head{
+.Schedule-itselff .Schedule-Day .Schedule-Day-Head{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 2px;
 }

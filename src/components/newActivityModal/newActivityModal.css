@@ -17,12 +17,12 @@
 }
 
 .modalContainer2{
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(22,22,22);
     margin: auto;
     border: 2px solid #888;
     width: 70%;
     height: 65%;
-    border-radius: 2%;
+    border-radius: 0.5vh;
     display: block;
     align-items: center;
    
@@ -41,10 +41,13 @@
 .modalHead2>div>button{
     border: 2px #F0E68C solid;
     border-radius: 50%;
+    text-align: center;
     width: 1.2vw;
-    color: #F0E68C;
+    color: #e6d168;;
     cursor: pointer;
-    background-color: transparent;
+margin-bottom:2vh; 
+margin-right: 0.2vw;
+   background-color: transparent;
 }
 .modalContent2{
     display: grid;
@@ -61,7 +64,7 @@
     flex-direction: column;
     width: 16%;
     font-size: 0.9rem;
-    color: #F0E68C;
+    color: #e6d168;
     position: relative;
 }
 .select{
@@ -69,27 +72,24 @@
     height: 4vh;
     text-align: center;
     appearance: none;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(22, 22, 22);
     color: white;
     border-radius: 5px;
     position: relative;
+    cursor: pointer;
+}
+.select:hover{
+    outline:1px grey solid;
 }
 .select:focus{
     transform: scaleX(1.2);
     border-radius: 1px 0px 0px 0px;
-    border: none !important;
+    outline: 1px solid grey;
 }
-.option{
-    /* width: 8vw;
-    height: 4vh; */
-    /* text-align: center; */
-    border: none;
-    padding: 5px;
-    background-color: rgb(37, 37, 37);;
-    color: white;
-    border: 1px solid white;
-   
+.select:focus-within{
+    transform: scaleX(1);
 }
+
 /* .select:focus {
 width:50vw;
 z-index: 10000;
@@ -116,7 +116,7 @@ position: relative;
     gap: 1.5vw;
 }
 .choosingTeamCell span:nth-child(2)>button{
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(22, 22, 22);
     border:0;
     color: white;
     width: 6vw;
@@ -133,6 +133,10 @@ position: relative;
 
 .btn:focus i{
     color:#F0E68C;
+
+}
+.btn i{
+    background-color: transparent;
 }
  
 .choosingTeamCell-Second{
@@ -142,7 +146,7 @@ position: relative;
     gap: 0.8vh;
 }
 .choosingTeamCell-Second:first-child{
-    color: #F0E68C;
+    color: #e6d168;;
 }
 .choosingTeamCell-Second .hovedPrincip{
     padding-left: 1vw;
@@ -166,13 +170,14 @@ input[type="date"],input[type="time"]{
     text-align: center;
 }
 .choosingTeamCell select:hover{
-    outline: grey solid 5px;
+    outline: grey solid 1px;
 }
 .choosingTeamCell-SecondContent{
     display: flex;
     flex-direction: row;
     gap: 2vw;
 }
+
 .footerOfRow{
     padding-left: 4vw;
     padding-top: 0.5vh;
@@ -187,7 +192,9 @@ display: flex;
 justify-content: end;
 }
 .modalFooter2 >button{
-    background-color: #e4d54e;
+    margin-right: -3vw;
+    background-color: #dbc451;
+    color: rgb(31, 30, 30);
     font-family:monospace;
     text-align: center;
     font-weight:800;
@@ -204,4 +211,5 @@ justify-content: end;
       overflow:hidden;
       display: flex;
       gap: 4vw;
+      padding-bottom: 4px;
   }

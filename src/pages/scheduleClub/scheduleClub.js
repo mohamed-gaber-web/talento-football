@@ -21,7 +21,7 @@ const ScheduleClub = () => {
         <div className="Schedule">
             {openActivityModal &&<NewActivityModal closeActivityModal={setOpenActivityModal}/>}
         <div className="Schedule-head">
-            <div className="Schedule-head-Start">
+            <div className="Schedule-head-Startt">
                 <h4>February</h4>
             </div>
             <div className="Schedule-head-End">
@@ -50,7 +50,7 @@ const ScheduleClub = () => {
             </div>
 
         </div>
-        <div className="Schedule-itself">
+        <div className="Schedule-itselff">
             <div className="Schedule-Day">
                 <div className="Schedule-Day-Head">
                     <h6>Man</h6>

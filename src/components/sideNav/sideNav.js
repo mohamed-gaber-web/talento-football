@@ -13,9 +13,9 @@ const SideNav = () => {
     return (
         <aside>
             <ul>
-                <li> <Link to="/"> <img src={ homeImg } /> <small>Home</small> </Link> </li>
-                <li> <a href="#">  <FontAwesomeIcon icon={faCalendarDays} />  <small>Periodisering</small> </a> </li>
-                <li> <a href="#"> <FontAwesomeIcon icon={faBookOpen} /> <small>Curriculum</small> </a> </li>
+                <li> <Link to="/"> <img className='img-Home' alt="Home" src={ homeImg } name="homeImage" /> <small>Home</small> </Link> </li>
+                <li> <a href="/">  <FontAwesomeIcon icon={faCalendarDays} />  <small>Periodisering</small> </a> </li>
+                <li> <a href="/"> <FontAwesomeIcon icon={faBookOpen} /> <small>Curriculum</small> </a> </li>
             </ul>
         </aside>
     );

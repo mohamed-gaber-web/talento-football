@@ -7,7 +7,8 @@ function Modal({closeModal}) {
     const [teams,setTeams] = useState([]);
     const [edit,setColorEdit] = useState(true);
     const [teamEdit,setTeamEdit] = useState(true);
-    const [modalSpecs,setmodalSpecs]=useState(true);
+    const [modalSpecsTeam,setmodalSpecsTeam]=useState(true);
+    const [modalSpecsPerio,setmodalSpecsPerio]=useState(false);
     const [clubs,setClubs]= useState([]);
     const [newPrio,setNewPerio]=useState(false);
 
@@ -30,7 +31,7 @@ useEffect (()=>{
         {teamName:'U15',TeamColor:'maroon'},
         {teamName:'U16',TeamColor:'aqua'}])
 
-      },[teams,edit,teamEdit,modalSpecs,clubs,newPrio])
+      },[teams,edit,teamEdit,modalSpecsTeam,modalSpecsPerio,clubs,newPrio])
       return (
     <div className='modalBackGround'>
         <div className='modalContainer'>
@@ -41,14 +42,16 @@ useEffect (()=>{
             <div className='modalContent'>
                 <div className='modalContentHead'>
                 <div className='modalContentHeadLeft'>
-                    <button onClick={()=>setmodalSpecs(prev=>(!prev))}>Teams</button>
-                    <button onClick={()=>setmodalSpecs(prev=>(!prev))}>Periodisering</button>
+                    <button onClick={()=>{setmodalSpecsTeam(true);setmodalSpecsPerio(false)}}
+                    style={{color:modalSpecsTeam? '#F0E68C':'white'}}>Teams</button>
+                    <button onClick={()=>{setmodalSpecsPerio(true);setmodalSpecsTeam(false);}}
+                    style={{color:modalSpecsPerio? '#F0E68C':'white'}}>Periodisering</button>
                 </div>
-                {modalSpecs && <div className='modalContentHeadRight'>
+                {modalSpecsTeam && <div className='modalContentHeadRight'>
                     <button><FontAwesomeIcon icon={faPen} size="1x" onClick={()=>{setTeamEdit(prevTeamEdit=>!prevTeamEdit);changeColorBehaviour()}} /></button>
                     <button><FontAwesomeIcon icon={faPlus} size="lg" onClick={()=>{setColorEdit(prevEdit=>!prevEdit);changeSetTeamsBehaviour()}}/></button>
                 </div>}
-                {!modalSpecs && <div className='modalContentHeadRight-Perio'>
+                {modalSpecsPerio && <div className='modalContentHeadRight-Perio'>
                     <button><FontAwesomeIcon icon={faPen} size="1x" /></button>
                     <button><FontAwesomeIcon icon={faPlus} size="lg" onClick={()=>{setTeamEdit(prevTeamEdit=>!prevTeamEdit);setNewPerio(prev=>!prev)}}/></button>
                 </div>}
@@ -56,7 +59,7 @@ useEffect (()=>{
                 
                 <div className='modalContentBody'>
 
-                    {modalSpecs && teams.map(t=>{
+                    {modalSpecsTeam && teams.map(t=>{
                         return(
                 <div className='modealContentBodySpan'>
                 <span> {t.teamName}</span>
@@ -66,7 +69,7 @@ useEffect (()=>{
                    </div> 
                         )})}
 
-                        {!modalSpecs && clubs.map(c=>{
+                        {modalSpecsPerio && clubs.map(c=>{
                         return(
                 <div className='modealContentBodySpan'>
                 <span> {c.clubName}</span>

@@ -17,12 +17,12 @@
 }
 
 .modalContainer{
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(22,22,22);
     margin: auto;
     border: 2px solid #888;
     width: 50%;
     height: 50%;
-    border-radius: 2%;
+    border-radius: 0.5vh;
     display: block;
     align-items: center;
    
