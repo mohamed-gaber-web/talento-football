@@ -52,6 +52,7 @@ transform:translatex(4vw);
     width: 85%;
     height: 75%;
     display: block;
+    overflow: auto;
 }
 .modalContentHead{
     display: flex;
@@ -116,6 +117,9 @@ transform:translatex(4vw);
     gap: 2vw;
     font-size: small;
 }
+.teamNameSpan{
+    width: 4vw;   
+}
 
 input[type="color"] {
 	/* -webkit-appearance: none; */
@@ -163,4 +167,41 @@ justify-content: end;
     border:none;
     border-radius: 10%;
     cursor: pointer;
+}
+.AddTeam{
+    display: flex;
+    height: 4vh;
+    border-radius: 3%;
+    align-items: baseline;
+    margin-left: 12vw;
+    
+    width: fit-content;
+    max-width: 19vw;
+    justify-content: center
+;
+}
+
+.addNewTeam{
+    width: 9vw;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1vw;
+}
+.addNewTeam >input{
+    width: 3vw;
+    color: white;
+    
+}
+.addNewTeam>button{
+    color: white;
+    cursor: pointer;
+    width: 5vw;
+    border: none;
+}
+.addNewTeam>button:hover{
+    color:#F0E68C
+}
+.AddTeam>p:hover{
+    color: #F0E68C;
 }

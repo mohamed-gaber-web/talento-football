@@ -54,13 +54,14 @@
  .dropdown {
      position: relative;
      cursor: pointer;
+     background-color: #252525;
   }
   
   .dropdownContent {
     display: none;
     position: absolute;
     top: 25px;
-    background-color: #101010;
+    background-color: #181717;
     min-width: 250px;
     border-radius: 10px;
     border: 2px solid #707070;
@@ -70,7 +71,7 @@
   }
 
   .dropdownContent p {
-
+    background-color: #181717;
       padding: 4px 0;
   }
 
@@ -79,7 +80,7 @@
       color: #E8CB69;
       font-size: 18px;
       font-weight: 600;
-      background-color: transparent;
+      /* background-color: transparent; */
   }
   
   .dropdown:hover .dropdownContent {

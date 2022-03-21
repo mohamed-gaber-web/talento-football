@@ -49,10 +49,10 @@ function NewActivityModal({closeActivityModal}) {
               <span>Choose Activity Type</span>
               <span><select name="actvities" className="select" onChange={(e)=>setActivityType(e.target.value)} >
                 <option name="select" value="select" >Type</option>
-                <option name="select" value="Training">Training</option>
-                <option name="select" value="Match">Match</option>
-                <option name="select" value="Meeting">Meeting</option>
-                <option name="select" value="Social Activity">Social Activity</option>
+                <option name="training" value="Training">Training</option>
+                <option name="match" value="Match">Match</option>
+                <option name="meeting" value="Meeting">Meeting</option>
+                <option name="social Activity" value="Social Activity">Social Activity</option>
 
               </select></span>
 

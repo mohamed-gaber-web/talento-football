@@ -191,6 +191,10 @@ input[type="date"],input[type="time"]{
 display: flex;
 justify-content: end;
 }
+
+option:hover {
+    background-color: yellow;
+  }
 .modalFooter2 >button{
     margin-right: -3vw;
     background-color: #dbc451;
