@@ -1,0 +1,310 @@
+{
+  "calendars": [
+    {
+      "id": 1,
+      "date":"2022-02-01",
+      "dayName":"Monday",
+      "activities":[
+        {"id":11,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":14,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":2,
+      "date":"2022-02-02",
+      "dayName":"Tuesday",
+      "activities":[
+        {"id":21,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":22,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":23,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":34,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":3,
+      "date":"2022-02-03",
+      "dayName":"Wednesday",
+      "activities":[
+        {"id":31,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":32,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":33,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":34,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":4,
+      "date":"2022-02-04",
+      "dayName":"Thursday",
+      "activities":[
+        {"id":41,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":42,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":43,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":44,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":5,
+      "date":"2022-02-05",
+      "dayName":"Friday",
+      "activities":[
+        {"id":51,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":52,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":53,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":6,
+      "date":"2022-02-06",
+      "dayName":"Saturday",
+      "activities":[
+        {"id":62,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":63,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":64,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":7,
+      "date":"2022-02-07",
+      "dayName":"Sunday",
+      "activities":[
+        {"id":71,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":72,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":73,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":74,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":8,
+      "date":"2022-02-08",
+      "dayName":"Monday",
+      "activities":[
+        {"id":81,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":82,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":83,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":84,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":9,
+      "date":"2022-02-09",
+      "dayName":"Tuesday",
+      "activities":[
+        {"id":91,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":92,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":93,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":94,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":10,
+      "date":"2022-02-10",
+      "dayName":"Wednesday",
+      "activities":[
+        {"id":101,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":102,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":103,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":104,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":11,
+      "date":"2022-02-11",
+      "dayName":"Thursday",
+      "activities":[
+        {"id":111,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":112,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"}
+       
+      ]
+    },
+    {
+      "id":12,
+      "date":"2022-02-12",
+      "dayName":"Friday",
+      "activities":[
+        {"id":121,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":122,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":123,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":13,
+      "date":"2022-02-13",
+      "dayName":"Saturday",
+      "activities":[
+        {"id":131,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":132,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":133,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":134,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":14,
+      "date":"2022-02-14",
+      "dayName":"Sunday",
+      "activities":[
+        {"id":141,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":142,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":143,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":144,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":145,"teamName":"U16","teamColor":"darkblue","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+
+      ]
+    },
+    {
+      "id":15,
+      "date":"2022-02-15",
+      "dayName":"Monday",
+      "activities":[
+        {"id":151,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":152,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":153,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":154,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":16,
+      "date":"2022-02-16",
+      "dayName":"Tuesday",
+      "activities":[
+        {"id":161,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":162,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":163,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":164,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":17,
+      "date":"2022-02-17",
+      "dayName":"Wednesday",
+      "activities":[
+        {"id":171,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":172,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":173,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":174,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":18,
+      "date":"2022-02-18",
+      "dayName":"Thursday",
+      "activities":[
+        {"id":181,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":182,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":183,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":184,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":19,
+      "date":"2022-02-19",
+      "dayName":"Friday",
+      "activities":[
+        {"id":191,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":192,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":193,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":194,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":20,
+      "date":"2022-02-20",
+      "dayName":"Saturday",
+      "activities":[
+        {"id":201,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":202,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":203,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":204,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":21,
+      "date":"2022-02-21",
+      "dayName":"Sunday",
+      "activities":[
+        {"id":211,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":212,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":213,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":214,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":22,
+      "date":"2022-02-22",
+      "dayName":"Monday",
+      "activities":[
+        {"id":221,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":222,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":223,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":224,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":23,
+      "date":"2022-02-23",
+      "dayName":"Tuesday",
+      "activities":[
+        {"id":231,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":232,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":233,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":234,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":24,
+      "date":"2022-02-24",
+      "dayName":"Wednesday",
+      "activities":[
+        {"id":241,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":242,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":243,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":344,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":25,
+      "date":"2022-02-25",
+      "dayName":"Thursday",
+      "activities":[
+        {"id":251,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":252,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":253,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":254,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":26,
+      "date":"2022-02-26",
+      "dayName":"Friday",
+      "activities":[
+        {"id":261,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":262,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":263,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":264,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":265,"teamName":"U16","teamColor":"darkred","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":266,"teamName":"U17","teamColor":"darkblue","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":27,
+      "date":"2022-02-27",
+      "dayName":"Saturday",
+      "activities":[
+        {"id":271,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":272,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":273,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":274,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    },
+    {
+      "id":28,
+      "date":"2022-02-28",
+      "dayName":"Sunday ",
+      "activities":[
+        {"id":281,"teamName":"U12","teamColor":"red","desc":"Fase 1- Hoit Pres","startTime":"16:15","endTime":"17:15"},
+        {"id":282,"teamName":"U13","teamColor":"blue","desc":"Fase 2- Hoit Pres","startTime":"18:15","endTime":"19:15"},
+        {"id":283,"teamName":"U14","teamColor":"green","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"},
+        {"id":284,"teamName":"U15","teamColor":"purple","desc":"Fase 1- Middel Pres","startTime":"19:15","endTime":"20:15"}
+      ]
+    }
+  ] 
+}

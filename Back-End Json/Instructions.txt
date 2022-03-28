@@ -1,0 +1,4 @@
+1-npm i
+2-npx json-server --watch db.json
+this command will make the environment watch the database access internally
+and makes you run the database
